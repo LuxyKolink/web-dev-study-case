@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,103 +12,129 @@
 </head>
 
 <body>
-    <h1>Raices</h1>
+    <header>
+        <h1>Raices</h1>
+
+        <nav aria-label="primary-nav">
+            <!-- Solo si la navegación posee header -->
+            <!-- <nav aria-labelledby="primary-nav">
+            <h2 id="primary-nav">Navegación Principal</h2> -->
+            <ul>
+                <li>
+                    <a href="#poetry">Escribiendo</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#html">Aprende sobre nose xd</a>
-            </li>
-            <li>
-                <a href="#poetry">Escribiendo</a>
-            </li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <section id="html">
-        <h2>Filamentos</h2>
-        <p>Hilo</p>
-        <img src="img/html_logo.png" alt="Logo HTML5" title="Espacio Kreativo" width="300" height="300">
-        <figure>
-            <figcaption>Ejemplo</figcaption>
-            <p>
-                <code>&lt;h1&gt;Hi mom!&lt;/h1&gt;</code>
-            </p>
-        </figure>
-
-        <h3>Clorofila</h3>
-        <p>Dormir despierto</p>
-        <ol>
-            <!-- Entidades HTML -->
-            <!-- <br>&nbsp;&nbsp;&nbsp;...Comer sin digerir
-            <br>&nbsp;&nbsp;&nbsp;...Escuchar sin oir
-            <br>&nbsp;&nbsp;&nbsp;...Hablar sin sonido -->
-            <li>...Comer sin digerir</li>
-            <li>...Escuchar sin oir</li>
-            <li>...Hablar sin sonido</li>
-        </ol>
-    </section>
-
-    <hr>
-
-    <section id="poetry">
-        <h2>Filamentos</h2>
-        <p>Venas sedientas encienden el alma</p>
-        <!-- Etiquestas en linea -->
-        <p>De un guerrero <em>silencioso pero voraz</em></p>
-
-        <h3>Glosario</h3>
-        <p>Novedad</p>
-        <p><abbr title="Sin palabras">
-            <a href="https://www.adl.org/resources/hate-symbol/acab">ACAB</a>
-        </abbr></p>
-
-        <h3>Definición</h3>
-        <ul>
-            <li>
-                <p>Es eso pertinente ahora?</p>
+    <main>
+        <article id="html">
+            <h2>Filamentos</h2>
+            <p>Hilo</p>
+            <section>
+                <h3>HTML5?</h3>
+                <img src="img/html_logo.png" alt="Logo HTML5" title="Espacio Kreativo" width="300" height="300">
                 <figure>
-                    <img src="img/room.png" alt="Urotsuki" title="Urotsuki's dark bedroom" width="645" height="537" loading="lazy">
-                    <figcaption>
-                        Urotsuki´s Dark Bedroom
-                    </figcaption>
+                    <figcaption>Ejemplo</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hi mom!&lt;/h1&gt;</code>
+                    </p>
                 </figure>
-            </li>
-            <li>
-                <p>Lo que experimentamos en medida <strong>exponencial</strong></p>
-                <address>
-                    Chuzos el enano<br>
-                    Via Piedecuesta&trade;<br>
-                </address>
-                <figure>
-                    <img src="img/descarga.jpeg" alt="Izaya" title="Izayaaa" loading="lazy" width="736" height="734">
-                    <figcaption>Izayaaaa!!!</figcaption>
-                </figure>
-            </li>
-        </ul>
+            </section>
+            <section>
+                <h3>No puedo pensar en nombres en este momento</h3>
+                <p>Dormir despierto</p>
+                <ol>
+                    <!-- Entidades HTML -->
+                    <!-- <br>&nbsp;&nbsp;&nbsp;...Comer sin digerir
+                <br>&nbsp;&nbsp;&nbsp;...Escuchar sin oir
+                <br>&nbsp;&nbsp;&nbsp;...Hablar sin sonido -->
+                    <li>...Comer sin digerir</li>
+                    <li>...Escuchar sin oir</li>
+                    <li>...Hablar sin sonido</li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>
+                            Adivina el <mark>número de horas</mark> que me toma llegar a esas conclusiones
+                        </summary>
+                        <p>Trabajando de <time datetime="08:00">8 am</time> por <time datetime="PT7H30M">7 horas y
+                                media</time>, supondría que una eternidad</p>
+                    </details>
+                </aside>
+            </section>
+        </article>
+        <hr>
 
-        <h3>Una lista de cosas por hacer</h3>
-        <dl>
-            <dt>Aprender JS</dt>
-            <dd>Hace falta, javascript nunca me falla</dd>
+        <article id="poetry">
+            <h2>Filamentos</h2>
+            <p>Conductos sedientos encienden el alma</p>
+            <!-- Etiquestas en linea -->
+            <p>De un guerrero <em>silencioso pero voraz</em></p>
 
-            <dt>Aprender C</dt>
-            <dd>Es necesario manipular la consola en forma, y el SO</dd>
-        </dl>
-    </section>
+            <section>
+                <h3>Glosario</h3>
+                <p>Novedad</p>
+                <p><abbr title="Sin palabras">
+                        <a href="https://www.adl.org/resources/hate-symbol/acab">ACAB</a>
+                    </abbr></p>
 
+                <h3>Definición</h3>
+                <ul>
+                    <li>
+                        <p>Es eso pertinente ahora?</p>
+                        <figure>
+                            <img src="img/room.png" alt="Urotsuki" title="Urotsuki's dark bedroom" width="645"
+                                height="537" loading="lazy">
+                            <figcaption>
+                                Urotsuki´s Dark Bedroom
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>Lo que experimentamos en medida <strong>exponencial</strong></p>
+                        <address>
+                            Chuzos el enano<br>
+                            Via Piedecuesta&trade;<br>
+                        </address>
+                        <figure>
+                            <img src="img/descarga.jpeg" alt="Izaya" title="Izayaaa" loading="lazy" width="736"
+                                height="734">
+                            <figcaption>Izayaaaa!!!</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Evitar los siguientes tags si se trabaja solo HTML -->
+            <!-- <div></div> -->
+            <!-- <span></span> -->
+            <section>
+                <h3>Una lista de cosas por hacer</h3>
+                <dl>
+                    <dt>Aprender JS</dt>
+                    <dd>Hace falta, javascript nunca me falla</dd>
+
+                    <dt>Aprender C</dt>
+                    <dd>Es necesario manipular la consola en forma, y el SO</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
     <hr>
-    <!-- Evitar imprimir la dirección web completa en la página -->
-    <!-- Evitar frase "Enlace a" -->
-    <!-- Los textos de enlace deben ser cortos -->
-    &lt;&lt;&lt; &copy; <a href="about.html">Santiago Molano</a> &gt;&gt;&gt;
-    <p>
-        <a href="#">Volver</a>
-    </p>
+    <footer>
+        <!-- Evitar imprimir la dirección web completa en la página -->
+        <!-- Evitar frase "Enlace a" -->
+        <!-- Los textos de enlace deben ser cortos -->
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Santiago Molano</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Volver</a>
+        </p>
+    </footer>
 </body>
 
 </html>
