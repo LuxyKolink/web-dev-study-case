@@ -1,5 +1,10 @@
 # web-dev-study-case
 
+## Generales
+
+- Verificar HTML_
+  - [NU Html Checker](https://validator.w3.org/nu/#file)
+
 ## Image Resources
 
 - Placeholder Image Generators:
