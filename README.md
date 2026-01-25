@@ -2,8 +2,20 @@
 
 ## Generales
 
+- Casos de estudio
+  - [Curso HTML Dave Gray](https://youtu.be/mJgBOIoGihA)
+
 - Verificar HTML_
   - [NU Html Checker](https://validator.w3.org/nu/#file)
+
+- Aprendizaje
+  - [Retos desarrollo web](https://devchallenges.io/projects/html-css)
+
+- Programación en Vim
+  - [Plugin etiquetas](https://github.com/tpope/vim-surround)
+
+- Indentar Texto (Vim)
+  - [Indentar Texto](https://www.reddit.com/r/vim/comments/1krrjvi/whats_the_best_way_to_indent_a_text/)
 
 ## Image Resources
 

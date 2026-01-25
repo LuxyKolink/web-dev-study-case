@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Santiago Molano">
+    <meta name="description" content="Tacos Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Tienda de Tacos</h1>
+
+        <nav aria-label="primary-nav">
+            <ul>
+                <li>
+                    <a href="#home">Sobre <abbr title="Little Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Nuestro Menú</a>
+                </li>
+                <li>
+                    <a href="hours.html">Horarios</a>
+                </li>
+                <li>
+                    <a href="contact">Contáctanos</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_and_drink_400x267.png" alt="Tacos y Bebida" title="Tacos y bebida" width="400"
+                height="267">
+            <figcaption>Tacos y Bebida</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="home">
+            <h2>Sobre <abbr title="Little Taco Shop">LTS</abbr></h2>
+            <p>
+                <abbr title="Little Taco Shop">LTS</abbr> fue fundado en 2026.
+                <strong>Amamos los tacos🌮.</strong>
+                Esperamos que el lugar sea de su agrado
+            </p>
+            <section>
+                <h3>Taco Trivia</h3>
+                <aside>
+                    <details>
+                        <summary>
+                            Cuando aparecieron los tacos en Estados Unidos?
+                        </summary>
+                        <p>
+                            Jeffrey M. Pilcher, historiador de tacos y
+                            profesor de historia en la universidad de Minnesota,
+                            Establece que las primeras menciones de tacos en los
+                            Estados Unidos provienen en los periodicos de
+                            <time datetime="1905">1905</time>. (Source:
+                            <a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                                target="_blank">Smithsonian Magazine</a>)
+                        </p>
+                    </details>
+                </aside>
+            </section>
+        </article>
+        <hr>
+        <article id="menu">
+            <h2>Nuestro Menú</h2>
+            <table>
+                <caption>Nuestros Tacos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tacos</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Crujientes</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Normales</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Chips & Salsa $2</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Volver al principio</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+</body>
+
+</html>
