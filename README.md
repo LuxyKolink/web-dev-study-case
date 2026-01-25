@@ -4,6 +4,7 @@
 
 - Casos de estudio
   - [Curso HTML Dave Gray](https://youtu.be/mJgBOIoGihA)
+  - [Github](https://github.com/gitdagray/html_course)
 
 - Verificar HTML_
   - [NU Html Checker](https://validator.w3.org/nu/#file)
