@@ -18,6 +18,25 @@
 - Indentar Texto (Vim)
   - [Indentar Texto](https://www.reddit.com/r/vim/comments/1krrjvi/whats_the_best_way_to_indent_a_text/)
 
+## CSS
+
+- Casos de estudio
+  - [Curso CSS Dave Gray](https://youtu.be/n4R2E7O-Ngo)
+  - [Github](https://github.com/gitdagray/css_course)
+
+- Verificar CSS
+  - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+- Especificación CSS
+  - [Specificity Calculator](https://specificity.keegan.st/)
+
+- Paletas de Colores
+  - [Coolors Palette Generator](https://coolors.co/generate)
+
+- Verificador de Contraste
+  - [Color Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
+  - [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
 ## Image Resources
 
 - Placeholder Image Generators:

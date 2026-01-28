@@ -1,0 +1,41 @@
+html{
+    /* font sizes en html */
+    font-size: 22px;
+}
+
+body {
+    /* font-size: 22px; */
+}
+
+h1, h2 {
+    color: aquamarine;
+
+}
+p {
+    /* prohibido usar important xd */
+    /* color: purple!important; */
+    color: purple;
+}
+
+p {
+    color: cadetblue;
+}
+
+span {
+    color: blue;
+}
+
+/* Herencia */
+.extra span {
+    color: inherit;
+}
+
+.highligth {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* no se recomienda usar ids aquí */
+#id {
+    color: gray;
+}
