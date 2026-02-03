@@ -1,0 +1,32 @@
+/* dont set font size on html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body por defecto no toma todo el height de la página, solo toma el del contenido */
+/* si queremos que el body tome toda el alto de la página: */
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    /* Use em for paddings and margins (for ex. in a button) */
+    padding: 0.5em;
+}
+
+/* Use rem unit for font size */
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    /* the character 0 from the elements font */
+    width: 40ch;
+}
