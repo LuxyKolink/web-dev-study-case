@@ -1,0 +1,36 @@
+/* para usar fonts externos -> https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 15%;
+    font-size: 2rem;
+    /* color: purple; */
+
+    /* generic families */
+    /* font-family: sans-serif; */
+    /* font-family: monospace; me guta ete */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+
+    /* font stacks */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* para heredar el font-size */
+/* input, button {
+    font: inherit;
+} */
+
+/* configs que no tienen impacto por el font */
+p {
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-align: right; */ /* valor por defecto: left */
+    /* text-indent: 2em; */
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 0.2em; */
+    /* font-weight: bold; */
+    /* font-style: oblique; */
+}
