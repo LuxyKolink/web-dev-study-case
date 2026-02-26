@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+    /* color: #000; */ /* lo comun suele ser que el color de el enlace sea igual al color del texto */
+    /* color: steelblue; */
+    color: hsl(207, 44%, 49%);
+    /* color: rgb(70, 130, 180); */
+}
+
+/* pseudo-clases */
+/* el orden aquí importa */
+/* normalmente no se utiliza el color del visited */
+
+a:visited {
+    color: purple;
+}
+
+a:hover , a:focus {
+    /* opacity: 0.8; */
+    /* color: hsl(189, 44%, 49%); */
+    color: rgb(70, 130, 180, 0.8);
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
